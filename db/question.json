@@ -1,0 +1,26 @@
+[
+  {
+    "title": "假如。。。",
+    "author": "huihui",
+    "content": "假如生活欺骗了你",
+    "answers": [
+      {
+        "author": "xuexue",
+        "content": "不要悲伤不要心急，《代码大全》会一直陪伴着你 ...",
+        "questionId": 1,
+        "createTime": 1524843674,
+        "id": 1
+      }
+    ],
+    "createTime": 1524843612,
+    "id": 1
+  },
+  {
+    "title": "诗和远方",
+    "author": "yingying",
+    "content": "人生不止眼前的苟且 还有诗和远方",
+    "answers": [],
+    "createTime": 1524843674,
+    "id": 2
+  }
+]

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/banner.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link href='http://cdn.webfont.youziku.com/webfonts/nomal/107255/46121/5a14d330f629d9124cd83298.css' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<div class="div-class-main">
+    <header>
+        <span>IDEA</span>
+        <a href="/js">首页</a>
+        <a href="/js/answered.html">已响应的想法</a>
+        <a href="/js/noAnswered.html">未响应的想法</a>
+        <button id="id-button-showAskDiv" type="button">想法</button>
+    </header>
+    <div class="class-div-questionList">
+    </div>
+    <div class="class-div-mask"></div>
+    <div class="class-div-askDiv">
+        <div class="class-div-askDivTitle">
+            <h2>写下你的想法</h2>
+            <p>描述精确的idea更易得到响应</p>
+        </div>
+        <input id="id-input-qTitle" class="class-input-question" type="text" placeholder="响应标题">
+        <input id="id-input-qAuthor" class="class-input-question" type="text" placeholder="idea提出者">
+        <input id="id-input-qContent" class="class-input-question" type="text" placeholder="想法内容">
+        <button id="id-button-addQuestion">提交想法</button>
+        <span id="id-span-closeAskDiv">x</span>
+    </div>
+</div>
+</div>
+
+<script src="/js/util.js"></script>
+<script src="/js/templateHTML.js"></script>
+<script src="/js/askButton.js"></script>
+<script src="/js/noAnswered.js"></script>
+</body>
+</html>

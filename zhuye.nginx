@@ -1,0 +1,9 @@
+server {
+    listen 80;
+    location /static {
+        alias /home/zhuyem/static;
+    }
+    location /js {
+        proxy_pass http://localhost:2002;
+    }
+}
