@@ -1,5 +1,6 @@
 server {
     listen 80;
+    server_name pytao.cc;
     location /static {
         alias /home/zhuyem/static;
     }
@@ -7,3 +8,4 @@ server {
         proxy_pass http://localhost:2002;
     }
 }
+
