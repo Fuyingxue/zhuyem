@@ -1,12 +1,12 @@
 #zhuyem
 
 # #####安装软件
-yarn 
+yarn add xxxxx
 
 # 在app所在文件配置如下
        zhuye.nginx
        package.json
-       app_vy.js
+       app.js
 
 
 # #####配置HTTP服务器  nginx反向代理配置(zhuye.nginx)
@@ -17,9 +17,6 @@ sudo ln -s /home/zhuyem/zhuye.nginx /etc/nginx/sites-enabled/zhuyem
 # 运行
 sudo service nginx restart
 
-1.
-nohup node app.js > myLog.txt 2>&1 &
-
-2.
-npm install -g forever
-forever start app.js
+后台运行
+$ npm install -g pm2 命令行全局安装pm2
+$ pm2 start app.js 启动app项目
